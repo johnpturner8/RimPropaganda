@@ -1,0 +1,5 @@
+Add functionality to turn propoganda off
+Add downside for propaganda
+Stop showing motes when watching propaganda
+Display message of propaganda settings in TV description
+Scale ideological conversion factor to reasonable amount

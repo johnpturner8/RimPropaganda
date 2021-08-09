@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/JobDef[defName="WatchTelevision"]/driverClass</xpath>
+    <value>
+      <driverClass>RimPropaganda.JobDriver_WatchPropaganda</driverClass>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="TubeTelevision"]/comps</xpath>
+    <value>
+      <li Class="RimPropaganda.CompProperties_Propaganda">
+        <certaintyFactor>1</certaintyFactor>
+      </li>
+    </value>
+  </Operation>
+</Patch>
