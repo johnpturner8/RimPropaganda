@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/JobDef[defName="WatchTelevision"]/driverClass</xpath>
+        <value>
+            <driverClass>RimPropaganda.JobDriver_WatchPropaganda</driverClass>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="TubeTelevision"]/comps</xpath>
+        <value>
+            <li Class="RimPropaganda.CompProperties_Propaganda">
+                <certaintyFactor>0.00002</certaintyFactor>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="FlatscreenTelevision"]/comps</xpath>
+        <value>
+            <li Class="RimPropaganda.CompProperties_Propaganda">
+                <certaintyFactor>0.00002</certaintyFactor>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MegascreenTelevision"]/comps</xpath>
+        <value>
+            <li Class="RimPropaganda.CompProperties_Propaganda">
+                <certaintyFactor>0.00002</certaintyFactor>
+            </li>
+        </value>
+    </Operation>
+    <!--<Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[thingClass="Building_Art"]/comps</xpath>
+    <nomatch Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Building_Art"]</xpath>
+        <value>
+            <comps>
+                <li Class="RimPropaganda.CompProperties_Propaganda">
+                    <canChange>false</canChange>
+                    <certaintyFactor>0.00001</certaintyFactor>
+                </li>
+            </comps>
+        </value>
+    </nomatch>
+    <match Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[thingClass="Building_Art"]/comps</xpath>
+        <value>
+            <li Class="RimPropaganda.CompProperties_Propaganda">
+                <canChange>false</canChange>
+                <certaintyFactor>0.00001</certaintyFactor>
+            </li>
+        </value>
+    </match>
+    </Operation>-->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/JobDef[defName="ViewArt"]/driverClass</xpath>
+        <value>
+            <driverClass>RimPropaganda.JobDriver_ViewArtPropaganda</driverClass>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Hindu"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureSmall</thingDef>
+                <styleDef>Hindu_SculptureSmall</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Hindu"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>Hindu_SculptureLarge</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Hindu"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureGrand</thingDef>
+                <styleDef>Hindu_SculptureGrand</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Buddhist"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureSmall</thingDef>
+                <styleDef>Buddhist_SculptureSmall</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Buddhist"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureLarge</thingDef>
+                <styleDef>Buddhist_SculptureLarge</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Buddhist"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureGrand</thingDef>
+                <styleDef>Buddhist_SculptureGrand</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Christian"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureSmall</thingDef>
+                <styleDef>Christian_SculptureSmall</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Christian"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureLarge</thingDef>
+                <styleDef>Christian_SculptureLarge</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Christian"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureGrand</thingDef>
+                <styleDef>Christian_SculptureGrand</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Morbid"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureSmall</thingDef>
+                <styleDef>Morbid_SculptureSmall</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Morbid"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureLarge</thingDef>
+                <styleDef>Morbid_SculptureLarge</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Morbid"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureGrand</thingDef>
+                <styleDef>Morbid_SculptureGrand</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Totemic"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureSmall</thingDef>
+                <styleDef>Totemic_SculptureSmall</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Totemic"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureLarge</thingDef>
+                <styleDef>Totemic_SculptureLarge</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Totemic"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureGrand</thingDef>
+                <styleDef>Totemic_SculptureGrand</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Animalist"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureSmall</thingDef>
+                <styleDef>Animalist_SculptureSmall</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Animalist"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureLarge</thingDef>
+                <styleDef>Animalist_SculptureLarge</styleDef>
+            </li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Animalist"]/thingDefStyles</xpath>
+        <value>
+            <li>
+                <thingDef>PropagandaSculptureGrand</thingDef>
+                <styleDef>Animalist_SculptureGrand</styleDef>
+            </li>
+        </value>
+    </Operation>
+</Patch>

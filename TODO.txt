@@ -1,5 +1,19 @@
-Add functionality to turn propoganda off
+X Propaganda set is not linked to TV, and is not tracked in saves
+	Add property to tv itself?
 Add downside for propaganda
-Stop showing motes when watching propaganda
-Display message of propaganda settings in TV description
-Scale ideological conversion factor to reasonable amount
+X Stop showing motes when watching propaganda
+X Display message of propaganda settings in TV description
+Add translation files
+
+X Add statues/art
+No - Try making a derivitive of ITab_Bills to accomplish this
+
+? - Balance ideological conversion factor
+
+Add precept for propaganda approval
+X Add affects for ironed willed, etc
+
+Make statues match ideology
+
+Tested Compatibilities:
+Prisoner Recreation

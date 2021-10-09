@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThoughtDef>
+    <defName>DislikedPropaganda</defName>
+    <durationDays>1</durationDays>    
+    <stages>
+      <li>
+        <label>saw angering propaganda</label>
+        <description>I had to see progaganda from another ideology. This propaganda makes me angry!</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
