@@ -49,8 +49,7 @@
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>7</Mass>
       <Beauty>100</Beauty>
-      <WorkToMake>1</WorkToMake>
-      <!--<WorkToMake>30000</WorkToMake>-->
+      <WorkToMake>30000</WorkToMake>
       <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
     </statBases>
     <stuffCategories>

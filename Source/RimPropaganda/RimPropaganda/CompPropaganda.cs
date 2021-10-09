@@ -7,7 +7,6 @@ using Verse;
 using RimWorld;
 using UnityEngine;
 using Verse.AI;
-using RimPropoganda;
 
 namespace RimPropaganda
 {
@@ -22,7 +21,6 @@ namespace RimPropaganda
 
 		public float certaintyFactor => Props.certaintyFactor;
 		public bool canChange => Props.canChange;
-		//public bool beenInstalled => Props.beenInstalled;
 
 		public CompProperties_Propaganda Props
         {
@@ -31,18 +29,6 @@ namespace RimPropaganda
                 return (CompProperties_Propaganda)props;
             }
         }
-        //private Texture2D CommandTex
-        //{
-        //    get
-        //    {
-        //        if (this.cachedCommandTex == null)
-        //        {
-        //            this.cachedCommandTex = ContentFinder<Texture2D>.Get(this.Props.commandTexture, true);
-        //        }
-        //        return this.cachedCommandTex;
-        //    }
-        //}
-
 		public override IEnumerable<FloatMenuOption> CompFloatMenuOptions(Pawn selPawn)
 		{
 			if (canChange)
@@ -62,19 +48,6 @@ namespace RimPropaganda
 			}
 		}
 
-        //public override IEnumerable<Gizmo> CompGetGizmosExtra()
-        //{
-        //    //if (!canChange && !beenInstalled)
-        //        yield return new Designator_InstallPropaganda
-        //        {
-        //            defaultLabel = "InstallIdeo".Translate(),
-        //            defaultDesc = "InstallIdeoDesc".Translate(),
-        //            icon = CommandTex
-        //        };
-        //    yield break;
-        //}
-
-        //Saves power consumption settings
         public override void PostExposeData()
 		{
 			base.PostExposeData();
@@ -95,30 +68,6 @@ namespace RimPropaganda
             }
 			return message;
         }
-
-		//public override IEnumerable<Gizmo> CompGetGizmosExtra()
-		//{
-		//	foreach (Gizmo gizmo in base.CompGetGizmosExtra())
-		//	{
-		//		yield return gizmo;
-		//	}
-		//	IEnumerator<Gizmo> enumerator = null;
-		//	if (this.parent.Faction == Faction.OfPlayer)
-		//	{
-		//		yield return new Command_Toggle
-		//		{
-		//			icon = this.CommandTex,
-		//			defaultLabel = this.Props.commandLabelKey.Translate(),
-		//			defaultDesc = this.Props.commandDescKey.Translate(),
-		//			isActive = (() => this.showingPropoganda),
-		//			toggleAction = delegate ()
-		//			{
-		//				this.showingPropoganda = !this.showingPropoganda;
-		//			}
-		//		};
-		//	}
-		//	yield break;
-		//}
 		public override void PostPostMake()
         {
 			if (Props.autoIdeo)
@@ -134,14 +83,8 @@ namespace RimPropaganda
 	class CompProperties_Propaganda : CompProperties
 	{
 		public bool canChange = true;
-		//public bool beenInstalled = false;
 		public float certaintyFactor;
-		//public bool installAsPropaganda = true;
 		public bool autoIdeo = false;
-
-		public string commandTexture = "InstallIdeo";
-		//public string commandLabelKey = "CommandDesignateTogglePowerLabel";
-		//public string commandDescKey = "CommandDesignateTogglePowerDesc";
 
 		public CompProperties_Propaganda()
 		{

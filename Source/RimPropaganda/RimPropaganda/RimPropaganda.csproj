@@ -62,11 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Obsolete\MakePropArt.cs" />
-    <Compile Include="Obsolete\Command_InstallAsProp.cs" />
     <Compile Include="CompPropaganda.cs" />
-    <Compile Include="Obsolete\ITab_PropBills.cs" />
-    <Compile Include="Obsolete\Propaganda_Patches.cs" />
     <Compile Include="TelevisionSetPropJobs.cs" />
     <Compile Include="WatchPropaganda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

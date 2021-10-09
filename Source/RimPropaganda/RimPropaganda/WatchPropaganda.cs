@@ -17,10 +17,6 @@ namespace RimPropaganda
             CompPropaganda propaganda = ((Building)TargetA.Thing).TryGetComp<CompPropaganda>();
             if (propaganda != null && propaganda.showingPropaganda)
             {
-                //old method
-                //float certChange = propaganda.certaintyFactor * ((Building)TargetA.Thing).GetStatValue(StatDefOf.JoyGainFactor, true);
-
-                //new method, to match art
                 Job curJob = pawn.CurJob;
                 float joyGain = curJob.def.joyGainRate;
                 float certChange = propaganda.certaintyFactor * joyGain;
