@@ -15,6 +15,30 @@
 		</match>
 	</Operation>	
 	
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded</li>
+		</mods>
+		<!--certaintyFactor accounts for mood bonuses of radio-->
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Radio_Industrial"]/comps</xpath>
+			<value>
+				<li Class="RimPropaganda.CompProperties_Propaganda">
+					<certaintyFactor>0.00001</certaintyFactor>
+				</li>
+			</value>
+		</match>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="Radio_Spacer"]/comps</xpath>
+			<value>
+				<li Class="RimPropaganda.CompProperties_Propaganda">
+					<certaintyFactor>0.00003</certaintyFactor>
+				</li>
+			</value>
+		</match>
+	</Operation>
+	
+	<!-- Core Functionality-->
     <Operation Class="PatchOperationReplace">
         <xpath>/Defs/JobDef[defName="WatchTelevision"]/driverClass</xpath>
         <value>
@@ -51,6 +75,8 @@
             <driverClass>RimPropaganda.JobDriver_ViewArtPropaganda</driverClass>
         </value>
     </Operation>
+	
+	<!--Match propaganda art to ideology style-->
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/StyleCategoryDef[defName="Hindu"]/thingDefStyles</xpath>
         <value>
