@@ -7,8 +7,8 @@
     <ProjectGuid>{1DAF2102-2564-4542-B199-C8EE612DC0F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RimPropoganda</RootNamespace>
-    <AssemblyName>RimPropoganda</AssemblyName>
+    <RootNamespace>RimPropaganda</RootNamespace>
+    <AssemblyName>RimPropaganda</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
