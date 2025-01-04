@@ -22,7 +22,7 @@ namespace RimPropaganda
 
         public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
-            return this.pawn.Reserve(this.Broadcaster, this.job, 1, -1, null, errorOnFailed, true);
+            return this.pawn.Reserve(this.Broadcaster, this.job, 1, -1, null, errorOnFailed);
         }
 
         protected override IEnumerable<Toil> MakeNewToils()
