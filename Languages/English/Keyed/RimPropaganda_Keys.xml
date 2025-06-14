@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<SetIdeology>Display propaganda for </SetIdeology>
-<SetPropagandaOff>Turn off propaganda</SetPropagandaOff>
+    <SetIdeology>Display propaganda for </SetIdeology>
+    <SetPropagandaOff>Turn off propaganda</SetPropagandaOff>
+    <PropagandaConversion>Propaganda sparked conversion to </PropagandaConversion>
 </LanguageData>
