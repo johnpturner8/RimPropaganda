@@ -19,7 +19,8 @@ namespace RimPropaganda
             {
                 Job curJob = this.pawn.CurJob;
                 float joyGain = curJob.def.joyGainRate;
-                float certChange = propaganda.certaintyFactor * joyGain;
+                float scale = LoadedModManager.GetMod<PropagandaMod>().GetSettings<PropagandaSettings>().tvPropScale;
+                float certChange = propaganda.certaintyFactor * joyGain * scale;
                 if (propaganda.ideo == this.pawn.ideo.Ideo)
                 {
                     //The only way to change certainty without throwing a mote
@@ -55,8 +56,9 @@ namespace RimPropaganda
                 float extraJoyGainFactor = (num > 0f) ? num : 0f;
                 Job curJob = this.pawn.CurJob;
                 float joyGain = extraJoyGainFactor * curJob.def.joyGainRate;
+                float scale = LoadedModManager.GetMod<PropagandaMod>().GetSettings<PropagandaSettings>().artPropScale;
 
-                float certChange = propaganda.certaintyFactor * joyGain;
+                float certChange = propaganda.certaintyFactor * joyGain * scale;
                 if (propaganda.ideo == this.pawn.ideo.Ideo)
                 {
                     //The only way to change certainty without throwing a mote
