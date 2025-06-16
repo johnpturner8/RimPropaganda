@@ -57,7 +57,7 @@ namespace RimPropaganda
                 float extraJoyGainFactor = (num > 0f) ? num : 0f;
                 Job curJob = this.pawn.CurJob;
                 float joyGain = extraJoyGainFactor * curJob.def.joyGainRate;
-                float scale = LoadedModManager.GetMod<PropagandaMod>().GetSettings<PropagandaSettings>().tvPropScale;
+                float scale = LoadedModManager.GetMod<PropagandaMod>().GetSettings<PropagandaSettings>().artPropScale;
 
                 float certChange = propaganda.certaintyFactor * joyGain * delta * scale;
                 if (propaganda.ideo == this.pawn.ideo.Ideo)

@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CompPropaganda.cs" />
+    <Compile Include="PropagandaSettings.cs" />
     <Compile Include="TelevisionSetPropJobs.cs" />
     <Compile Include="WatchPropaganda.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
