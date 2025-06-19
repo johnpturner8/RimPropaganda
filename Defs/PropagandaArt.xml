@@ -29,7 +29,6 @@
             <certaintyFactor>0.00002</certaintyFactor>
             <autoIdeo>true</autoIdeo>
         </li>
-        <li Class="CompProperties_Styleable"></li>
     </comps>
   </ThingDef>
 
@@ -64,7 +63,6 @@
             <certaintyFactor>0.00002</certaintyFactor>
             <autoIdeo>true</autoIdeo>
         </li>
-        <li Class="CompProperties_Styleable"></li>
     </comps>
   </ThingDef>
 
@@ -101,7 +99,6 @@
             <certaintyFactor>0.00002</certaintyFactor>
             <autoIdeo>true</autoIdeo>
         </li>
-
     </comps>
   </ThingDef>
 </Defs>
