@@ -40,7 +40,15 @@
             <driverClass>RimPropaganda.JobDriver_WatchPropaganda</driverClass>
         </value>
     </Operation>
-    <Operation Class="PatchOperationAdd">
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/ThingDef[building/joyKind="Television"]/comps</xpath>
+		<value>
+			<li Class="RimPropaganda.CompProperties_Propaganda">
+				<certaintyFactor>0.00002</certaintyFactor>
+			</li>
+		</value>
+	</Operation>
+	<!--<Operation Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="TubeTelevision"]/comps</xpath>
         <value>
             <li Class="RimPropaganda.CompProperties_Propaganda">
@@ -63,7 +71,7 @@
                 <certaintyFactor>0.00002</certaintyFactor>
             </li>
         </value>
-    </Operation>
+    </Operation> -->
     <Operation Class="PatchOperationReplace">
         <xpath>/Defs/JobDef[defName="ViewArt"]/driverClass</xpath>
         <value>
@@ -76,8 +84,8 @@
             <li>
                 <thingDef>PropagandaSculptureSmall</thingDef>
                 <styleDef>Hindu_SculptureSmall</styleDef>
-            </li>
-        </value>
+            </li> 
+		</value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/StyleCategoryDef[defName="Hindu"]/thingDefStyles</xpath>
