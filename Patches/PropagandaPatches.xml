@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="ArtBuildingBase"]/comps/li[@Class="CompProperties_MeditationFocus"]/offsets/li[@Class="FocusStrengthOffset_BuildingDefsWithQuality"]/defs</xpath>
+		<value>
+			<li>PropagandaSculptureSmall</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="ArtBuildingBase"]/comps/li[@Class="CompProperties_MeditationFocus"]/offsets/li[@Class="FocusStrengthOffset_BuildingDefsWithQuality"]/defs</xpath>
+		<value>
+			<li>PropagandaSculptureLarge</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="ArtBuildingBase"]/comps/li[@Class="CompProperties_MeditationFocus"]/offsets/li[@Class="FocusStrengthOffset_BuildingDefsWithQuality"]/defs</xpath>
+		<value>
+			<li>PropagandaSculptureGrand</li>
+		</value>
+	</Operation>
+	
 	<!-- Vanilla Furniture Expanded Patches -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
