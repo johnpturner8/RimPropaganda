@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>More Religious Origins</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Daoist"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>Daoist_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Daoist"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>Daoist_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Daoist"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>Daoist_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Shinto"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>Shinto_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Shinto"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>Shinto_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Shinto"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>Shinto_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Norse"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>Norse_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Norse"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>Norse_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Norse"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>Norse_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Hellenic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>Hellenic_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Hellenic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>Hellenic_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Hellenic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>Hellenic_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Kemet"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>Kemet_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Kemet"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>Kemet_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Kemet"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>Kemet_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Aztec"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>Aztec_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Aztec"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>Aztec_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Aztec"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>Aztec_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Druidic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>Druidic_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Druidic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>Druidic_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="Druidic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>Druidic_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Ideology Expanded - Memes and Structures</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Serketist"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>VME_Serketist_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Serketist"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>VME_Serketist_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Serketist"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>VME_Serketist_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Corporate"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>VME_Corporate_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Corporate"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>VME_Corporate_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Corporate"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>VME_Corporate_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Authoritarian"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>VME_Authoritarian_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Authoritarian"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>VME_Authoritarian_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Authoritarian"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>VME_Authoritarian_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Esotericism"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>VME_Esotericism_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Esotericism"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>VME_Esotericism_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Eldritch"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>VME_Eldritch_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Eldritch"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>VME_Eldritch_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Eldritch"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>VME_Eldritch_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Hedonist"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>VME_Hedonist_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Hedonist"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>VME_Hedonist_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="VME_Hedonist"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>VME_Hedonist_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Alpha Memes</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Jewish"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>AM_Jewish_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Jewish"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>AM_Jewish_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Jewish"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>AM_Jewish_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Kemetic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>AM_Kemetic_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Kemetic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>AM_Kemetic_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Kemetic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>AM_Kemetic_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Neolithic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>AM_Neolithic_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Neolithic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>AM_Neolithic_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Neolithic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>AM_Neolithic_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Ocular"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>AM_Ocular_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Ocular"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>AM_Ocular_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Ocular"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>AM_Ocular_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Scavenger"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>AM_Scavenger_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Scavenger"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>AM_Scavenger_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Scavenger"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>AM_Scavenger_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_SteampunkRevival"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>AM_SteampunkRevival_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_SteampunkRevival"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>AM_SteampunkRevival_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_SteampunkRevival"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>AM_SteampunkRevival_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Cubic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureSmall</thingDef>
+            <styleDef>AM_Cubic_SculptureSmall</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Cubic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureLarge</thingDef>
+            <styleDef>AM_Cubic_SculptureLarge</styleDef>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/StyleCategoryDef[defName="AM_Cubic"]/thingDefStyles</xpath>
+        <value>
+          <li>
+            <thingDef>PropagandaSculptureGrand</thingDef>
+            <styleDef>AM_Cubic_SculptureGrand</styleDef>
+          </li>
+        </value>
+      </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
