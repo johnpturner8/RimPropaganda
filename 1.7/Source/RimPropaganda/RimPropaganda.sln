@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RimPropaganda", "RimPropaganda\RimPropaganda.csproj", "{1DAF2102-2564-4542-B199-C8EE612DC0F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DAF2102-2564-4542-B199-C8EE612DC0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAF2102-2564-4542-B199-C8EE612DC0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAF2102-2564-4542-B199-C8EE612DC0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAF2102-2564-4542-B199-C8EE612DC0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BFEF58D7-1BC9-41F7-9F57-A0132D09BACC}
+	EndGlobalSection
+EndGlobal
